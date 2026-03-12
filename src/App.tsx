@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { ZoomIn, ZoomOut } from 'lucide-react';
+// import { ZoomIn, ZoomOut } from 'lucide-react';
 import './App.css'
 
 function App() {
