@@ -1,0 +1,42 @@
+#root {
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.cell {
+  background-color: #82b6ff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  border-radius: 0.5rem;
+  color: #242424;
+  font-size: 2em;
+}
+
+.actions {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 4rem;
+  width: 100%;
+  display: flex;  
+  gap:1rem;
+  justify-content: center;
+  background-color: #242424;
+}
+
+button {
+  background-color: #82b6ff;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
